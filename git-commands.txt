@@ -1,0 +1,8 @@
+1 -  git ignore
+	* create a file called .gitignore
+	* add the files you want to ignore inside the created file e.g  .project, *.class
+	* add it to git repository
+	  - git add .gitignore
+	  -	git commit -m "message" .gitignore
+2 - set master remote
+	git push --set-upstream origin master
