@@ -12,6 +12,7 @@
 
     <modules>
         <module>simu-duck-app</module>
+        <module>weather</module>
     </modules>
 
     <build>
