@@ -7,11 +7,11 @@
         <artifactId>general-java-parent</artifactId>
         <version>1.0</version>
     </parent>
-  <artifactId>simu-duck-app</artifactId>
+  <artifactId>java-built-observer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>SimUDuckApp</name>
+  <name>Java BuiltIn Observer</name>
   <url>http://ricardocabral.eu</url>
 
   <properties>
