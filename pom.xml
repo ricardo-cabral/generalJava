@@ -4,7 +4,6 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.com.rec</groupId>
     <artifactId>general-java-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
@@ -38,4 +37,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <groupId>eu.ricardocabral</groupId>
 </project>
