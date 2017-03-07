@@ -12,7 +12,8 @@
     <modules>
         <module>simu-duck-app</module>
         <module>weather</module>
-         <module>java-built.observer</module>
+        <module>java-built.observer</module>
+        <module>starbuzz</module>
     </modules>
 
     <build>
