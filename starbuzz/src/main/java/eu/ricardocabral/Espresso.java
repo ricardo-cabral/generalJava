@@ -2,10 +2,13 @@ package eu.ricardocabral;
 
 public class Espresso extends Beverage {
 
+	public Espresso() {
+		description = "Expresso";
+	}
+
 	@Override
-	public float cost() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double cost() {
+		return 1.99;
 	}
 
 }

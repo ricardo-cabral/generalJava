@@ -1,11 +1,13 @@
 package eu.ricardocabral;
 
 public class Decaf extends Beverage {
+	public Decaf() {
+		description = "Decaf Coffee";
+	}
 
 	@Override
-	public float cost() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double cost() {
+		return 1.05;
 	}
 
 }
