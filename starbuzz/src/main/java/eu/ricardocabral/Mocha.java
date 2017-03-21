@@ -2,7 +2,7 @@ package eu.ricardocabral;
 
 public class Mocha extends CondimentDecorator {
 
-	private Beverage beverage;
+	
 	public Mocha(Beverage beverage) {
 		this.beverage = beverage;
 	}

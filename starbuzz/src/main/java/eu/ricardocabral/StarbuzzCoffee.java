@@ -1,5 +1,6 @@
 package eu.ricardocabral;
 
+
 public class StarbuzzCoffee {
 
 	public static void main(String[] args) {
@@ -15,11 +16,16 @@ public class StarbuzzCoffee {
 		
 		Beverage beverage3 = new HouseBlend();
 		beverage3.setSize(Size.VENTI);
-		beverage3.getSize();
 		beverage3 = new Soy(beverage3);
 		beverage3 = new Mocha(beverage3);
 		beverage3 = new Whip(beverage3);
-		System.out.println(beverage3.getDescription() + " $ " + beverage3.cost() + " - size:" + beverage3.getSize());
+		System.out.println(beverage3.getDescription() 
+				+ " $" + String.format("%.2f", beverage3.cost()));
+		System.out.println(beverage3.getSize());
+		
+		
+		
+		
 	}
 
 }
