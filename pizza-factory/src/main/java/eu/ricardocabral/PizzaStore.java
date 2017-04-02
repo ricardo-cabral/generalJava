@@ -1,5 +1,10 @@
 package eu.ricardocabral;
 
+/**
+ * 
+ * @author Ricardo
+ *
+ */
 public abstract class PizzaStore {
 
 	
