@@ -1,5 +1,8 @@
 package eu.ricardocabral;
 
-public class NYStylePepperoniPizza extends Pizza {
+/*
+ * Older version, just kep it here to understand the pattern
+ */
+public class NYStylePepperoniPizza /*extends Pizza*/ {
 
 }

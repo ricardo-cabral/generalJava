@@ -1,5 +1,8 @@
 package eu.ricardocabral;
 
-public class ChicagoStyleVeggiePizza extends Pizza {
+/*
+ * Older version, just kep it here to understand the pattern
+ */
+public class ChicagoStyleVeggiePizza /*extends Pizza*/ {
 
 }

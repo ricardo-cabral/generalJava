@@ -9,13 +9,16 @@ package eu.ricardocabral;
  * @author Ricardo
  *
  */
+/*
+ * Older version, just kep it here to understand the pattern
+ */
 public class SimplePizzaFactory {
 
 	//often static
 	public static Pizza createPizza(String type) {
 		Pizza pizza = null;
 
-		if (type.equals("cheese")) {
+	/*	if (type.equals("cheese")) {
 			pizza = new CheesePizza();
 		} else if (type.equals("pepperoni")) {
 			pizza = new PepperoniPizza();
@@ -24,7 +27,7 @@ public class SimplePizzaFactory {
 		} else if (type.equals("veggie")) {
 			pizza = new VeggiePizza();
 		}
-
+*/
 		return pizza;
 	}
 
