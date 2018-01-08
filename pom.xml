@@ -15,7 +15,9 @@
         <module>java-built-observer</module>
         <module>starbuzz</module>
         <module>pizza-factory</module>
-         <module>singleton</module>
+        <module>singleton</module>
+        <module>command</module>
+        <module>java8</module>
     </modules>
 
     <build>
